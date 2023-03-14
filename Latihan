@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+    <head>
+        <style>
+        *{margin: 0px;
+        padding: 10px;
+        box-sizing: border-box;
+        height: 100%}
+
+            body{background-color: rgb(57, 132, 156); 
+                display: flex;
+                flex-direction: column;}
+
+            header{
+                flex: 2;
+                background-color: rgb(135, 203, 235);
+                padding: 10px;
+                display: flex;
+                justify-content: space-between;
+                }
+            h1{
+                width: 20%;
+            }
+
+            section{background-color: pink;
+                font-size: medium;
+                display: flex;
+                width: 100%;
+                column-gap: 10px;}
+            
+            aside{background: darkgoldenrod;
+                width: 20%;}
+            
+            article{width: 100%;
+                background-color: gray;}
+
+            main{
+                flex: 5;
+                background-color: brown;
+                display: flex;
+                font-size: smaller;
+                height: 80vp;}
+
+            footer{
+                    display: flex;
+                    flex: 1;
+                    background-color: rgb(204, 50, 158);font-size: x-small;}
+
+            ul{display: flex;
+                list-style: none;}
+
+            li{margin-right: 5px;}
+
+        </style>
+
+    </head>
+    <body>
+        <header>
+            <h1> 
+                <source><img src="logo.png" width="100%">
+
+            </h1>
+            <nav></nav>
+                <ul>
+                    <li> <a href="link1.html">Home</a> </li>
+                    <li> <a href="link1.html">Tentang</a> </li>
+                    <li> <a href="link1.html">Kontak</a> </li>
+                </ul>
+        </header>
+        <main>
+            <aside>
+                <a href="link.1.html">link</a>
+                <br>
+                <a href="link.1.html">link</a>
+            </aside>
+            
+            <section>
+                <article>
+                    <source><video controls src="1.mkv"></video>
+                </article>
+                <article>
+                    <source><img src="2.jpg">
+                </article>
+            </section>
+        </main>
+        <footer>FOOTER</footer>
+    </body>
