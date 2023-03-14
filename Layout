@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+    <head>
+        <style>
+        *{height: 100%;}
+
+            body{background-color: lightblue; 
+                display: flex;
+                flex-direction: column;}
+
+            header{
+                flex: 2;
+                font-size: xx-large;
+                background-color: burlywood;
+                padding: 20px;
+                display: flex;}
+
+            section{background-color: pink;
+                font-size: medium;
+                display: flex;
+                width: 100%;}
+            
+            aside{background: darkgoldenrod;
+                font-size: 36pt;
+                display: flex;
+                width: 20%;}
+            
+            article{width: 100%;}
+
+            main{
+                flex: 5;
+                background-color: brown;
+                display: flex;
+                font-size: x-large;
+                height: 80vp;
+            }
+            footer{
+                    display: flex;
+                    flex: 1;
+                    background-color: darkorchid;font-size: x-small;}
+        </style>
+    </head>
+    <body>
+        <header>HEADER</header>
+        <main>
+            <aside>SIDEBAR</aside>
+            <section>
+                <article>Bagian 1</article>
+                <article>Bagian 2</article>
+            </section>
+        </main>
+        <footer>FOOTER</footer>
+    </body>
